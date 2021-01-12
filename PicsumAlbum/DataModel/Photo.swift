@@ -6,10 +6,10 @@
 //
 
 import Foundation
-
-struct PhotoResponse: Decodable {
-    let photo: Photo
-}
+//
+//struct PhotoResponse: Decodable {
+//    let photo: Photo
+//}
 
 struct Photo: Decodable, Identifiable {
     var id: String {
